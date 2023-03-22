@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "0Vo9iPZEPNsiowEPZNe1TxNK+HaIm2Dw4b9R6JfarlPiA0z2Cz7x8S6i9CMKJE2WOrFm3M+2BBbC7NR1LZUwtw==",
+  "success": true,
+  "projectFilePath": "/Users/tweiler/Desktop/Mission12_nsweiler/backend/Mission12_nsweiler/Mission12_nsweiler/Mission12_nsweiler.csproj",
+  "expectedPackageFiles": [
+    "/Users/tweiler/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/tweiler/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/tweiler/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/tweiler/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/tweiler/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/tweiler/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
