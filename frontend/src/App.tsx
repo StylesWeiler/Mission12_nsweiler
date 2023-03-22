@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css';
-// import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 
 
-
+// data on teams in a json format
 const teamNames = [
             {"tid": 159, "cid": 0, "did": 0, "school": "Boston College", "name": "Eagles", "abbrev": "BC", "pop": 161, "city": "Chestnut Hill", "state": "MA", "latitude": 42.330, "longitude": -71.166},
             {"tid": 105, "cid": 0, "did": 0, "school": "Clemson", "name": "Tigers", "abbrev": "CLEM", "pop": 215, "city": "Clemson", "state": "SC", "latitude": 34.678, "longitude": -82.839},
@@ -327,6 +326,7 @@ const teamNames = [
             {"tid": 287, "cid": 19, "did": 39, "school": "Houston Baptist", "name": "Huskies", "abbrev": "HBU", "pop": 33, "city": "Greater Sharpstown", "state": "TX", "latitude": 29.694 , "longitude": -95.515}  
 ]; 
 
+// header component that tells what website the user is visiting
 function Header(){
   return(
     <div>
@@ -337,6 +337,7 @@ function Header(){
   )
 }
 
+// Team component that extends the main react componenet and has three string arguments that are set to the data held in the json object above
 class Team extends React.Component <{school: string; name: string; city: string; state: string}>{
   render() {
     const team = this.props;
@@ -350,6 +351,7 @@ class Team extends React.Component <{school: string; name: string; city: string;
     }
   }
 
+// TeamList component that contains the Team component for each team in the json object
 function TeamList() {
   return (
     <div>
@@ -357,7 +359,7 @@ function TeamList() {
     </div>
   )
 }
-
+// main function that runs the App (includes all the components above)
 function App() {
   return (
       <div className="App">
